@@ -1,0 +1,6 @@
+
+
+# After setting up a snakemake default or slurm profile (see http://bluegenes.github.io/Using-Snakemake_Profiles/), you can run eggnog like so)
+
+snakemake -s eggnog.snakefile --configfile test_config.yml --profile slurm --jobs 3 --cluster-config cluster-config.yml --shadow-prefix /scratch/ntpierce
+
