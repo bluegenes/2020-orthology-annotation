@@ -1,7 +1,7 @@
 # 2020-orthology-annotation
 run existing orthology annotation programs
 
-# eggnog-mapperv2
+# [eggnog-mapperv2](https://github.com/eggnogdb/eggnog-mapper/wiki/eggNOG-mapper-v2)
 
     # running on a compute node:
     snakemake -s eggnog.snakefile --configfile test_data/test_config.yml --cores 1 --cluster-config cluster-config.yml --use-conda -p -k --rerun-incomplete
@@ -13,7 +13,7 @@ run existing orthology annotation programs
       # 3. Run: snakemake -s eggnog.snakefile --configfile test_data/test_config.yml --profile slurm --jobs 3 --cluster-config cluster-config.yml --shadow-prefix /scratch/ntpierce
 
 
-# kofamscan 
+# [kofamscan](https://github.com/takaram/kofam_scan)
     # running on a compute node:
     snakemake -s kofamscan.snakefile --configfile test_data/test_config.yml --cores 1 --use-conda -p -k --rerun-incomplete
 
