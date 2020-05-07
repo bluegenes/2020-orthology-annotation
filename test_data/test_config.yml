@@ -1,5 +1,5 @@
 
-samples_csv: test_eggnog.csv
+samples_csv: test_data/test_eggnog.csv
 out_dir: eggnog_out
 database_dir: eggnog_data
 eggnog_database_version: 5.0.0
