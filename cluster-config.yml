@@ -3,6 +3,5 @@ __default__:
     account: ctbrowngrp
     partition: bmm
     job-name: "{rule}.w{wildcards}"
-    chdir: "/home/ntpierce/2019-protein-work"
-    error: "/home/ntpierce/2019-protein-work/mmetsp_eggnog/logs/slurm-%j.stderr"
-    output: "/home/ntpierce/2019-protein-work/mmetsp_eggnog/logs/slurm-%j.stdout"
+    error: "slurm-%j.stderr"
+    output: "slurm-%j.stdout"
